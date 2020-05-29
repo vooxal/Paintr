@@ -1,0 +1,22 @@
+{
+  "name": "paintr",
+  "version": "1.0.0",
+  "description": "A package that makes canvas easier to use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vooxal/Paintr.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "voxal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vooxal/Paintr/issues"
+  },
+  "homepage": "https://github.com/vooxal/Paintr#readme"
+}
