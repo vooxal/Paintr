@@ -1,1 +1,1 @@
-"# Paintr" 
+# Paintr
