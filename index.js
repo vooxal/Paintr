@@ -1,4 +1,4 @@
-module.exports.Paintr = class Paintr {
+export class Paintr {
   constructor(canvasID) {
   
     this.canvas = document.getElementById(canvasID);
@@ -6,6 +6,5 @@ module.exports.Paintr = class Paintr {
           var ctx = canvas.getContext('2d');
      }
   }
-  init(){
-  }
+
 }
