@@ -9,4 +9,3 @@ module.exports.Paintr = class Paintr {
   init(){
   }
 }
-module.exports.Paintr;
