@@ -5,6 +5,11 @@ export default class {
     if (this.canvas.getContext) {
       this.ctx = this.canvas.getContext("2d");
     }
+    console.log(
+      "%cPaintr\n%cv1.0.2",
+      "font-size:50px; padding-left:10px; border-left: 3px solid #555555;",
+      "color: yellow; font-style: italic; border-left: 3px solid #555555; padding-left:10px;"
+    );
     this.color = "#000000";
     this.rAF;
   }
@@ -42,15 +47,15 @@ export default class {
     this.ctx.fillStyle = color;
     this.ctx.fillRect(0, 0, canvas.width, canvas.height);
   }
-  img(x,y,src){
+  img(x, y, src) {
     let img = new Image();
     img.src = src;
     this.ctx.drawImage(img, x, y);
   }
-  loop(loopFunction){
+  loop(loopFunction) {
     this.rAF = requestAnimationFrame(loopFunction);
   }
-  stop(){
+  stop() {
     cancelAnimationFrame(this.rAF);
   }
 }
