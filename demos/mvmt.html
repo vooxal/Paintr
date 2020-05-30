@@ -31,10 +31,12 @@
         game.rect(player.x, player.y, 10, 10);
       }
       document.addEventListener("keypress", (event) => {
+        console.log(event.key);
         if (event.key === "w") {
           player.y -= 0.03;
         } else if (event.key === "a") {
           player.x -= 0.03;
+        
         } else if (event.key === "s") {
           player.y += 0.03;
         } else if (event.key === "d") {
