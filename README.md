@@ -1,4 +1,4 @@
-# Paintr ![Logo](https://www.netclipart.com/pp/m/222-2222668_austin-professional-painters-service-paint-bucket-flat-design.png)
+# Paintr
 ![Minified Size](https://img.shields.io/bundlephobia/min/paintr?color=purple) ![License: MIT](https://img.shields.io/npm/l/paintr) ![Version](https://img.shields.io/npm/v/paintr)  
 A simpler canvas
 ## Installation
