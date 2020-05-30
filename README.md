@@ -1,5 +1,5 @@
 # Paintr
-![Minified Size](https://img.shields.io/bundlephobia/min/paintr?color=purple) ![License: MIT](https://img.shields.io/npm/l/paintr) ![Version](https://img.shields.io/npm/v/paintr)
+![Minified Size](https://img.shields.io/bundlephobia/min/paintr?color=purple) ![License: MIT](https://img.shields.io/npm/l/paintr) ![Version](https://img.shields.io/npm/v/paintr)\
 A simpler canvas
 ## Installation
 * CDN: https://cdn.jsdelivr.net/npm/paintr
