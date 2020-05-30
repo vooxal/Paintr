@@ -1,5 +1,5 @@
 "use strict";
-export class Paintr {
+export default class {
   constructor(canvasID) {
     this.canvas = document.getElementById(canvasID);
     if (this.canvas.getContext) {
