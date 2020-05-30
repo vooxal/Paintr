@@ -15,15 +15,18 @@
       id="game"
       style="border: 1px solid #000000 !important;"
     ></canvas>
-    <script type="module">
-      "use strict";
-      import Paintr from "../src/index.js";
-      // real code starts here
+    <script>
       let count = 0;
       let player = {
         x: 0,
         y: 0,
       };
+    </script>
+    <script type="module">
+      "use strict";
+      import Paintr from "../src/index.js";
+      // real code starts here
+
       let game = new Paintr("game");
       function gameLoop() {
         game.loop(gameLoop);
@@ -36,7 +39,6 @@
           player.y -= 0.03;
         } else if (event.key === "a") {
           player.x -= 0.03;
-        
         } else if (event.key === "s") {
           player.y += 0.03;
         } else if (event.key === "d") {
