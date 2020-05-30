@@ -33,7 +33,7 @@
         game.clear();
         game.rect(player.x, player.y, 10, 10);
       }
-      document.addEventListener("keypress", (event) => {
+      document.addEventListener("keydown", (event) => {
         console.log(event.key);
         if (event.key === "w") {
           player.y -= 1;

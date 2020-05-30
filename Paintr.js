@@ -34,6 +34,14 @@ export default class {
     this.ctx.lineTo(endX, endY);
     this.ctx.stroke();
   }
+  triangle(x1,y1,x2,y2,x3,y3,color = this.color){
+    this.ctx.fillStyle = color;
+    this.ctx.beginPath();
+    this.ctx.moveTo(x1,y1);
+    this.ctx.lineTo(x2,y2);
+    this.ctx.lineTo(x3,y3);
+    this.ctx.fill();
+  }
   ellipse(x, y, width, height, color = this.color) {
     this.ctx.arc(x, y);
   }
