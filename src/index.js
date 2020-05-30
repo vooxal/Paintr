@@ -33,9 +33,9 @@ export class Paintr {
   }
   circle(x, y, radius, color = this.color) {
     this.ctx.fillStyle = color;
-    this.ctx.startPath();
+    this.ctx.beginPath();
     this.ctx.arc(x, y, radius, 0, 2 * Math.PI);
-    this.ctx.stroke();
+    this.ctx.fill();
   }
   background(color = this.color) {
     this.ctx.fillStyle = color;
@@ -47,7 +47,7 @@ export class Paintr {
     this.ctx.drawImage(img, x, y);
   }
   loop(loopFunction){
-    this.rAF = requestAnimationFrame(loopFuncion);
+    this.rAF = requestAnimationFrame(loopFunction);
   }
   stop(){
     cancelAnimationFrame(this.rAF);
