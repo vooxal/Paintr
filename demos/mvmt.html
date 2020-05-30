@@ -36,13 +36,13 @@
       document.addEventListener("keypress", (event) => {
         console.log(event.key);
         if (event.key === "w") {
-          player.y -= 0.03;
+          player.y -= 0.1;
         } else if (event.key === "a") {
-          player.x -= 0.03;
+          player.x -= 0.1;
         } else if (event.key === "s") {
-          player.y += 0.03;
+          player.y += 0.1;
         } else if (event.key === "d") {
-          player.x += 0.03;
+          player.x += 0.1;
         }
       });
       game.loop(gameLoop);
