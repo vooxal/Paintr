@@ -9,35 +9,39 @@
   </head>
 
   <body>
-    <canvas height="750" width="750" id="game" style="border: 1px solid #000000!important;"></canvas>
+    <canvas
+      height="750"
+      width="750"
+      id="game"
+      style="border: 1px solid #000000 !important;"
+    ></canvas>
     <script type="module">
       "use strict";
-      import Paintr from "../src/index.js"
-        // real code starts here
-        let count = 0;
-              let player = {
-                x: 0,
-                y: 0,
-              };
-              let game = new Paintr("game");
-              document.addEventListener("keypress", (event) => {
-                  if (event.key === "w") {
-                    player.y-= 0.03;
-                  } else if (event.key === "a") {
-                    player.x-= 0.03;
-                  } else if (event.key === "s") {
-                    player.y+= 0.03;
-                  } else if (event.key === "d") {
-                    player.x+= 0.03;
-                  }
-                });
-              function gameLoop() {
-                  game.loop(gameLoop);
-                  game.clear();
-                  game.rect(player.x,player.y,10,10);
-
-              }
-              game.loop(gameLoop);
-            </script>
+      import Paintr from "../src/index.js";
+      // real code starts here
+      let count = 0;
+      let player = {
+        x: 0,
+        y: 0,
+      };
+      let game = new Paintr("game");
+      function gameLoop() {
+        game.loop(gameLoop);
+        game.clear();
+        game.rect(player.x, player.y, 10, 10);
+      }
+      document.addEventListener("keypress", (event) => {
+        if (event.key === "w") {
+          player.y -= 0.03;
+        } else if (event.key === "a") {
+          player.x -= 0.03;
+        } else if (event.key === "s") {
+          player.y += 0.03;
+        } else if (event.key === "d") {
+          player.x += 0.03;
+        }
+      });
+      game.loop(gameLoop);
+    </script>
   </body>
 </html>
