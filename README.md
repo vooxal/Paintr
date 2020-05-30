@@ -38,6 +38,10 @@ canvas.rect(x,y,width,height,color);
 ```js
 canvas.circle(x,y,radius,color);
 ```
+#### Triangle
+```js
+canvas.triangle(x1,y1,x2,y2,x3,y3,color);
+```
 ## Demos
 
 [Game Movement Demo](https://vooxal.github.io/Paintr/demos/mvmt.html)
