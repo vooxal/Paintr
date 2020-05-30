@@ -5,6 +5,7 @@ export class Paintr {
       this.ctx = this.canvas.getContext("2d");
     }
     this.color = "#000000";
+    this.rAF;
   }
   setColor(color) {
     this.color = color;
@@ -44,5 +45,11 @@ export class Paintr {
     let img = new Image();
     img.src = src;
     this.ctx.drawImage(img, x, y);
+  }
+  loop(loopFunction){
+    this.rAF = requestAnimationFrame(loopFuncion);
+  }
+  stop(){
+    cancelAnimationFrame(this.rAF);
   }
 }
