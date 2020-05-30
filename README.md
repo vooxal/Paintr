@@ -1,5 +1,6 @@
 # Paintr
 ![Minified Size](https://img.shields.io/bundlephobia/min/paintr?color=purple) ![License: MIT](https://img.shields.io/npm/l/paintr) ![Version](https://img.shields.io/npm/v/paintr)
+A simpler canvas
 ## Installation
 * CDN: https://cdn.jsdelivr.net/npm/paintr
 * npm: `npm i paintr`
@@ -9,6 +10,7 @@
 let canvas = new Paintr(idOfCanvas);
 ```
 ## Usage
+
 ### Utility
 #### Background
 ```js
@@ -36,3 +38,6 @@ canvas.rect(x,y,width,height,color);
 ```js
 canvas.circle(x,y,radius,color);
 ```
+## Demos
+
+[Game Movement Demo](https://vooxal.github.io/Paintr/demos/mvmt.html)
