@@ -1,3 +1,4 @@
+"use strict";
 export class Paintr {
   constructor(canvasID) {
     this.canvas = document.getElementById(canvasID);
