@@ -31,6 +31,18 @@ export class Paintr {
     this.ctx.arc(x, y);
   }
   circle(x, y, radius, color = this.color) {
+    this.ctx.fillStyle = color;
+    this.ctx.startPath();
     this.ctx.arc(x, y, radius, 0, 2 * Math.PI);
+    this.ctx.stroke();
+  }
+  background(color = this.color) {
+    this.ctx.fillStyle = color;
+    this.ctx.fillRect(0, 0, canvas.width, canvas.height);
+  }
+  img(x,y,src){
+    let img = new Image();
+    img.src = src;
+    this.ctx.drawImage(img, x, y);
   }
 }
