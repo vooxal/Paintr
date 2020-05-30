@@ -6,7 +6,7 @@ export default class {
       this.ctx = this.canvas.getContext("2d");
     }
     console.log(
-      "%cPaintr\n%cv1.0.2",
+      "%cPaintr\n%cv1.0.3",
       "font-size:50px; padding-left:10px; border-left: 3px solid #555555;",
       "color: yellow; font-style: italic; border-left: 3px solid #555555; padding-left:10px;"
     );
