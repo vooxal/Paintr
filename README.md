@@ -4,8 +4,8 @@ A simpler canvas
 ## Installation
 * CDN: https://cdn.jsdelivr.net/npm/paintr
 * npm: `npm i paintr`
-* Yarn: `yarn add paintr`
-## Initialization
+* Yarn: `yarn add paintr`  
+### Initialization
 ```js
 let canvas = new Paintr(idOfCanvas);
 ```
