@@ -1,11 +1,11 @@
 # Paintr
-![Minified Size](https://img.shields.io/bundlephobia/min/paintr?color=purple) ![License: MIT](https://img.shields.io/npm/l/paintr) ![Version](https://img.shields.io/npm/v/paintr)  
+[![Minified Size](https://img.shields.io/bundlephobia/min/paintr?color=purple)](https://cdn.jsdelivr.net/npm/paintr) ![License: MIT](https://img.shields.io/npm/l/paintr) [![Version](https://img.shields.io/npm/v/paintr)](https://www.npmjs.com/package/paintr)  
 A simpler canvas
 ## Installation
 * CDN: https://cdn.jsdelivr.net/npm/paintr
 * npm: `npm i paintr`
-* Yarn: `yarn add paintr`
-## Initialization
+* Yarn: `yarn add paintr`  
+### Initialization
 ```js
 let canvas = new Paintr(idOfCanvas);
 ```
