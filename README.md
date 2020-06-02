@@ -26,6 +26,7 @@ canvas.clear();
 ```
 
 ### Basic Shapes
+
 #### Line
 ```js
 canvas.line(startX, startY, endX, endY,color);

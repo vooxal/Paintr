@@ -66,4 +66,11 @@ export default class {
   stop() {
     cancelAnimationFrame(this.rAF);
   }
+  save(){
+    this.ctx.save();
+  }
+  restore(){
+    this.ctx.save();
+  }
+  
 }
