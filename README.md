@@ -18,7 +18,7 @@ canvas.background(color);
 ```
 #### Color
 ```js
-canvas.color(<hex,rgba,colors>)
+canvas.setColor(<hex,rgba,colors>)
 ```
 #### Clear
 ```js
